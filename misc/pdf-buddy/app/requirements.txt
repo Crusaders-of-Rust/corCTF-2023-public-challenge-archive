@@ -1,0 +1,4 @@
+xhtml2pdf==0.2.11
+reportlab==3.6.12
+Django==4.2.2
+gunicorn==20.1.0

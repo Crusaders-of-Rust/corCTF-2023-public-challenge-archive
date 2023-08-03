@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    background-color: #f9d6d5;
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    color: #e74c3c;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.error-message h1 {
+    font-size: 24px;
+}
+
+.error-message p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.success-message {
+    background-color: #d5f9d6;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    color: #2ecc71;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.success-message h1 {
+    font-size: 24px;
+}
+
+.success-message p {
+    font-size: 18px;
+    margin-top: 10px;
+}

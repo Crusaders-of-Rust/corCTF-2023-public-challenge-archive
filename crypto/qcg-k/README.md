@@ -1,0 +1,9 @@
+Solves: 16
+
+Author: Day
+
+Description:
+
+The Q stands for quintadecic (obviously)
+
+Flag: `corctf{wh4t_d0_y0u_m34n_1_C4Nt_jU5t_4dd_m0re_c03FFs?!??!?!????}`

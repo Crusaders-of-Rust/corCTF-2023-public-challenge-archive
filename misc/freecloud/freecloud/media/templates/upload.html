@@ -1,0 +1,11 @@
+{% block content %}
+<h1>Upload Files</h1>
+<p>We only support images for now for security reasons</p>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+</form>
+<br>
+<a href="/media/uploads/source.tar.gz">Host it yourself</a>
+{% endblock %}
